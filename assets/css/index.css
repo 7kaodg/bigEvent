@@ -77,9 +77,10 @@ iframe {
     user-select: none;
 }
 
-.layui-header {
+
+/* .layui-header {
     overflow: hidden;
-}
+} */
 
 .layui-header img {
     width: 32px;
@@ -103,4 +104,9 @@ iframe {
 
 .layui-layout-right a:hover {
     color: #1890ff !important;
+}
+
+.layui-this,
+.layui-this a {
+    background-color: transparent!important;
 }

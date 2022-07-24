@@ -1,0 +1,29 @@
+html,
+body {
+    margin: 0;
+    height: 0;
+}
+
+body {
+    background-color: #f2f3f5;
+}
+
+body {
+    padding: 15px;
+}
+
+.layui-input,
+.layui-textarea {
+    width: 45%;
+    box-sizing: border-box
+}
+
+.layui-input:hover,
+.layui-textarea:hover {
+    border-color: #40a9ff !important;
+}
+
+.layui-input:focus,
+.layui-textarea:focus {
+    box-shadow: 0 0 0 2px rgb(24 144 255 / 20%) !important;
+}
