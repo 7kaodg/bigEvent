@@ -1,0 +1,105 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    background-color: #f2f3f5;
+}
+
+.layui-card-header span {
+    float: right;
+}
+
+.layui-card-header span i {
+    vertical-align: middle;
+}
+
+.layui-card-header span a:hover {
+    color: #40a9ff;
+}
+
+.layui-input:hover,
+.layui-textarea:hover {
+    border-color: #40a9ff !important;
+}
+
+.layui-input:focus,
+.layui-textarea:focus {
+    box-shadow: 0 0 0 2px rgb(24 144 255 / 20%) !important;
+}
+
+.layui-form {
+    padding-right: 40px;
+}
+
+.layui-form-select dl dd.layui-this {
+    color: #000;
+    font-weight: 700;
+    background-color: #e8fbff;
+}
+
+
+/* 设置按钮行的样式 */
+
+.row2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.row1 {
+    display: flex;
+}
+
+
+/* 设置裁剪区域的样式 */
+
+.cropper-box {
+    width: 400px;
+    height: 280px;
+    background-color: cyan;
+    overflow: hidden;
+}
+
+
+/* 设置预览区域下方文本的样式 */
+
+.size {
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
+
+/* 设置图片行的样式 */
+
+
+/* 设置 preview-box 区域的的样式 */
+
+.preview-box {
+    margin-left: 50px;
+}
+
+
+/* 设置 img-preview 区域的样式 */
+
+.img-preview {
+    width: 200px !important;
+    height: 140px !important;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#btnChooseImage {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px dashed rgba(0, 0, 0, .85);
+}
+
+#upload {
+    display: none;
+}

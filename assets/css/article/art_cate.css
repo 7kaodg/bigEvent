@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f3f5;
+    padding: 15px;
+}
+
+.layui-card-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layui-input:hover,
+.layui-textarea:hover {
+    border-color: #40a9ff !important;
+}
+
+.layui-input:focus,
+.layui-textarea:focus {
+    box-shadow: 0 0 0 2px rgb(24 144 255 / 20%) !important;
+}
+
+#form-add,
+#form-edit {
+    padding: 40px 30px 0 0;
+}
+
+#btn-gounp {
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #f2f3f5;
+}

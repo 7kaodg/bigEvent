@@ -36,3 +36,16 @@ function renderAvatar(data) {
         $(".text-avatar").html(_name[0].toUpperCase()).show();
     }
 }
+
+var clickLink = (function() {
+    // $("iframe").attr("src", '/article/art_pub.html');
+    return {
+        artPub: function() {
+            $("#btn-pub")[0].click();
+        },
+        artList: function() {
+            $("#btn-list")[0].click();
+        }
+    }
+})();
+var ID = 0;

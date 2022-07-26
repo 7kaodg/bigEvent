@@ -1,0 +1,76 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    background-color: #f2f3f5;
+}
+
+.layui-form {
+    display: flex;
+    width: 300px;
+    margin-left: -34px;
+}
+
+.layui-form-select .layui-input {
+    width: 180px!important;
+}
+
+.layui-form .layui-form-item:nth-child(3) .layui-input-block {
+    display: flex;
+    margin-left: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layui-input,
+.layui-textarea {
+    box-sizing: border-box
+}
+
+.layui-input:hover,
+.layui-textarea:hover {
+    border-color: #40a9ff !important;
+}
+
+.layui-input:focus,
+.layui-textarea:focus {
+    box-shadow: 0 0 0 2px rgb(24 144 255 / 20%) !important;
+}
+
+.layui-form-select dl dd.layui-this {
+    background-color: transparent !important;
+    color: #40a9ff;
+}
+
+.layui-form-select dl dd:hover {
+    color: #40a9ff;
+}
+
+.layui-laypage span {
+    border-color: #40a9ff!important;
+}
+
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+    box-sizing: border-box;
+    background-color: transparent!important;
+}
+
+.layui-laypage-curr:hover {
+    box-shadow: 0 0 0 2px rgb(24 144 255 / 20%) !important;
+}
+
+.layui-laypage .layui-laypage-curr em {
+    color: #40a9ff;
+}
+
+.layui-laypage input:focus,
+.layui-laypage select:focus {
+    border-color: #40a9ff!important;
+}
