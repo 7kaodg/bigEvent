@@ -4,7 +4,6 @@ $(function() {
     let id = window.parent.ID;
     initCate();
     initEditor();
-    initArtInfo();
     // 1.1 获取裁剪区域的 DOM 元素
     var $image = $('#image')
         // 1.2 配置选项
@@ -29,6 +28,7 @@ $(function() {
                 const htmlStr = template('tpl-cate', res);
                 $("[name=cate_id]").html(htmlStr);
                 form.render('select');
+                initArtInfo();
             }
         });
     }
@@ -45,7 +45,6 @@ $(function() {
             .cropper('destroy') // 销毁旧的裁剪区域
             .attr('src', newImgURL) // 重新设置图片路径
             .cropper(options) // 重新初始化裁剪区域
-
     });
     var art_stats = '已发布';
     $("#saveDraft").on("click", function() {
